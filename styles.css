@@ -1,0 +1,36 @@
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.wrapper {
+    height: 100vh;
+}
+.bg-color {
+    background-color: brown;
+}
+.parent{
+    /* position: relative; */
+    background-color: yellow;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+
+}
+.box {
+    /* position: absolute; */
+    height: 200px;
+    width: 200px;
+}
+.box1 {
+    background-color: green;
+}
+.box2 {
+    background-color: orange;
+}
+.box3 {
+    background-color: lightblue;
+}
+
